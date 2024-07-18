@@ -6,7 +6,7 @@ import NewsArticle from '../../components/NewsArticle/NewsArticle'
 function Home() {
     const [news, setNews] = useState([])
     // const [loading, setLoading] = useState(true)
-    const [searchQuery, setSearchQuery] = useState("pune")
+    const [searchQuery, setSearchQuery] = useState("")
 
     // const [searchResults, setSearchResults] = useState([])
 
